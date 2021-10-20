@@ -9,11 +9,13 @@ body {
 
 main {
   display: flex;
+  flex-wrap:wrap;
   margin-top: 2%;
 }
 
 .main-header {
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-between;
   padding: 60px;
   background: #13293d;
@@ -21,6 +23,8 @@ main {
 }
 
 .card {
+  display: flex;
+  flex-wrap: wrap;
   flex: 1 0 0;
   padding: 10px;
   text-align: center;

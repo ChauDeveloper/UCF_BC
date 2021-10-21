@@ -89,6 +89,20 @@ footer {
 
 /* TODO: Add styles to display and hide the resource links */
 
+ul.magic{
+  display:none;
+}
+
+.resources:hover .magic{
+ display: block;
+}
+
+.magic-link {
+  font-style:unset;
+}
+
+
+
 @media screen and (max-width: 768px) {
   header, main {
     flex-direction: column;
